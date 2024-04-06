@@ -5,13 +5,13 @@ This repository contains implementations and experiments with various machine le
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Dataset](#dataset)
+- [Dataset]()
 - [Algorithms](#algorithms)
 - [Usage](#usage)
 
 ## Introduction
 
-In this section, provide a detailed introduction to your project. Explain the problem you're solving, the goals of the project, and any relevant background information.
+In this repo, I am learning seven supervised learning algorithms and two unsupervised learning algorithms.
 
 ## Dataset
 
@@ -26,15 +26,27 @@ Basic Data Analysis: Conducted basic data analysis using plots such as histogram
 
 ## Algorithms
 
-- **Linear Regression**: Description of linear regression and its application in the project.
-- **Logistic Regression**: Description of logistic regression and its application in the project.
-- **Principal Component Analysis (PCA)**: Description of PCA and its application in the project.
-- **Random Forest**: Description of random forest algorithm and its application in the project.
-- **Decision Tree**: Description of decision tree algorithm and its application in the project.
-- **Support Vector Machine (SVM)**: Description of SVM and its application in the project.
-- **Naive Bayes**: Description of Naive Bayes algorithm and its application in the project.
-- **K-Means**: Description of K-Means clustering algorithm and its application in the project.
-- **K-Nearest Neighbors (KNN)**: Description of KNN algorithm and its application in the project.
+- **Linear Regression**: Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It assumes a linear relationship between the variables.
+Application: Predicting house prices based on features like area, number of bedrooms, and location.
+- **Logistic Regression**:Logistic regression is used for binary classification tasks. It models the probability that a given input belongs to a particular class.
+Application: Predicting whether an email is spam or not based on features like sender, subject, and content.
+- **Random Forest**: Random Forest is an ensemble learning method that constructs a multitude of decision trees during training and outputs the mode of the classes for classification or the mean prediction for regression.
+Application: Predicting customer churn in a subscription-based service using features like usage patterns, customer demographics, and satisfaction scores.
+- **Decision Tree**:  Decision Tree is a supervised learning algorithm used for classification and regression tasks. It splits the dataset into subsets based on the most significant attribute values.
+Application: Identifying customer segments based on demographic and purchasing behavior for targeted marketing campaigns.
+- **Support Vector Machine (SVM)**:SVM is a powerful supervised learning algorithm used for classification tasks. It finds the hyperplane that best separates classes in feature space.
+Application: Classifying whether a given transaction is fraudulent or not based on features like transaction amount, location, and time.
+- **Naive Bayes**: Naive Bayes is a probabilistic classifier based on Bayes' theorem with an assumption of independence between features.
+Application: Classifying documents into categories like sports, politics, or finance based on word frequencies.
+- **K-Nearest Neighbors (KNN)**: KNN is a simple, instance-based learning algorithm that stores all available cases and classifies new cases based on a similarity measure.
+Application: Recommending movies to users based on the preferences of similar users in a movie recommendation system.
+  
+-| UNSUPERVISED LEARNING ALGORITHMS
+ 
+- **Principal Component Analysis (PCA)**:PCA is a dimensionality reduction technique used to transform high-dimensional data into a lower-dimensional space while preserving most of the variability in the data.
+Application: Visualizing high-dimensional data or reducing the dimensionality of features before feeding them into a classifier.
+- **K-Means**:K-Means is a popular clustering algorithm that partitions data into K clusters based on similarity.
+Application: Segmenting customers into groups with similar purchasing behaviors for targeted marketing strategies.
   
 ## Usage
 You will get all code snippet in jupyter notebook form and for understanding I wrote comments as well .
